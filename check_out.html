@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- favicon -->
+    <link rel="icon" href="img/favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="css/check_out.css">
+
+</head>
+
+<body>
+    <div class="check-out-wrapper">
+        <div class="review-cart container">
+            <h2>Ask<strong>Me!</strong>Mobile</h2>
+            <a href="index.html" aria-hidden="true">
+                <button class='one'>Continue <b>Shopping</b></button>
+            </a>
+            <h4 class="">Order Summary&nbsp;
+                <i class="fa fa-shopping-cart">
+                    <b><span class="total-count badge badge-danger"></span></b>
+                </i>
+            </h4>
+            <hr>
+            <div class="table-responsive-sm py-3">
+                <table class="show-cart table-sm mx-auto">
+
+                </table>
+            </div>
+            <hr>
+            <div class="text-center pr-4"><b>TOTAL: $<span class="total-cart"></span></b></div>
+            <hr class="mb-0">
+        </div>
+        <div class="user-info container py-4">
+            <div class="rowpy-3">
+                <div class="col-12">
+                    <form onsubmit="alert('Thank you, we received your order.');return false;" class="was-validated">
+
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h3>Billing Address</h3>
+                                <div class="form-group">
+                                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                                    <input type="text" id="fname" name="firstname" class="form-control"
+                                        placeholder="full name..." required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                    <input type="text" id="email" name="email" class="form-control"
+                                        placeholder="email..." required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                                    <input type="text" id="adr" name="address" class="form-control"
+                                        placeholder="address..." required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="city"><i class="fa fa-institution"></i> City</label>
+                                    <input type="text" id="city" name="city" class="form-control" placeholder="city..."
+                                        required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="zip">Zip</label>
+                                            <input type="text" id="zip" name="zip" class="form-control"
+                                                placeholder="zip..." required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="country">Country</label>
+                                            <input type="text" id="country" name="country" class="form-control"
+                                                placeholder="country..." required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <h3>Payment</h3>
+                                <label for="fname">Accepted Cards</label>
+                                <div class="icon-container">
+                                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                                </div>
+                                <div class="form-group">
+                                    <label for="cname">Name on Card</label>
+                                    <input type="text" id="cname" name="cardname" class="form-control"
+                                        placeholder="name on card..." required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="ccnum">Credit card number</label>
+                                    <input type="text" id="ccnum" name="cardnumber" class="form-control"
+                                        placeholder="1111-2222-3333-4444" required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="expmonth">Exp Month</label>
+                                    <input type="text" id="expmonth" name="expmonth" class="form-control"
+                                        placeholder="month..." required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="expyear">Exp Year</label>
+                                            <input type="text" id="expyear" name="expyear" class="form-control"
+                                                placeholder="year..." required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="cvv">CVV</label>
+                                            <input type="text" id="cvv" name="cvv" class="form-control"
+                                                placeholder="xxx..." required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="text-center">
+                            <label>
+                                <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as
+                                billing
+                            </label>
+                            <input type="submit" value="Place order" class="btn btn-warning place-order">
+                            <p class="text-justify">Each Purchase Order placed by buyer for goods and/or services is
+                                subject to these standard purchase terms and the terms of the applicable Purchase Order,
+                                and is conditional upon Supplier’s agreement to such terms. Supplier shall be deemed to
+                                have agreed to be bound by such terms by accepting the Purchase Order, delivering the
+                                goods, and/or performing the services.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="js/shopping_cart.js"></script>
+</body>
+
+</html>
