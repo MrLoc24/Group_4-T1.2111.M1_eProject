@@ -933,11 +933,12 @@ img.card-img-top {
 ----------------------------------------------------- */
 
 .card {
-  height: 555px;
+  /* height: 555px; */
   border-radius: 30px;
   -webkit-box-shadow: 5px 5px 10px -8px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 5px 5px 10px -8px rgba(0, 0, 0, 0.75);
   box-shadow: 5px 5px 10px -8px rgba(0, 0, 0, 0.75);
+
   /* display: block; */
 }
 
@@ -2460,10 +2461,6 @@ footer .back-to-top {
   top: -30%;
   right: -30%;
   font-size: x-small;
-}
-
-.card {
-  margin-bottom: 20px;
 }
 
 .input-group > .form-control {
