@@ -529,7 +529,7 @@ ul.CTAs a {
   width: 60px;
   height: auto;
   float: left;
-  margin: 0 6px 0 0;
+  margin-top: 25px;
 }
 
 .popover_html li a h3 {
@@ -541,6 +541,7 @@ ul.CTAs a {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  margin-top: 25px;
 }
 
 .popover_html li a span {
@@ -564,7 +565,7 @@ ul.CTAs a {
   color: #000 !important;
   padding: 0px !important;
   line-height: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 /* ---------------------------------------------------
