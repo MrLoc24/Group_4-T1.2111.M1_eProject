@@ -52,7 +52,7 @@ body {
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-  background: #d8345f;
+  background: #d8ba34;
   border-radius: 5px;
 }
 
@@ -272,7 +272,7 @@ h3.logo {
 }
 
 h3.logo span {
-  position: relative;
+  /* position: relative; */
   top: 5px;
   display: inline-block;
   animation: bounce 0.4s ease-in-out infinite alternate;
@@ -972,7 +972,7 @@ img.card-img-top:hover {
 .card:hover h5,
 .card a:hover h5 {
   text-decoration: underline;
-  color: #d8345f;
+  color: gray;
 }
 
 div.honda {
