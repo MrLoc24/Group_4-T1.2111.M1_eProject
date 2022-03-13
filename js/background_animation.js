@@ -6,8 +6,8 @@ $(function () {
 
   $("#change_honda_bg").click(function () {
     var imageUrl = "img/logo/honda.jpg";
-    $("div#jumpo_heading").children("h1").html("Honda");
-    $("div#jumpo_heading").find("p:first-of-type").html("think different.");
+    $("div#jumpo_heading").children("h1").html("HONDA");
+    $("div#jumpo_heading").find("p:first-of-type").html("Trusted Brand");
     $(".jumbotron").css("background-image", "url(" + imageUrl + ")");
     $(".jumpo_heading").css("color", "#a0a0a0");
     var el = $("#jumpo_heading"),
@@ -21,8 +21,8 @@ $(function () {
 
   $("#change_suzuki_bg").click(function () {
     var imageUrl = "img/logo/suzuki-logo.jpg";
-    $("div#jumpo_heading").children("h1").html("Suzuki");
-    $("div#jumpo_heading").find("p:first-of-type").html("Turn On Tommorow");
+    $("div#jumpo_heading").children("h1").html("SUZUKI");
+    $("div#jumpo_heading").find("p:first-of-type").html("Establish since 1909");
     $(".jumpotron").children("h1").empty();
     $(".jumbotron").css("background-image", "url(" + imageUrl + ")");
     $(".jumpo_heading").css("color", "#054b93");
@@ -36,8 +36,8 @@ $(function () {
 
   $("#change_ford_bg").click(function () {
     var imageUrl = "img/logo/ford-logo.jpg";
-    $("div#jumpo_heading").children("h1").html("Ford");
-    $("div#jumpo_heading").find("p:first-of-type").html("Connecting People");
+    $("div#jumpo_heading").children("h1").html("FORD");
+    $("div#jumpo_heading").find("p:first-of-type").html("Power to conquer");
     $(".jumbotron").css("background-image", "url(" + imageUrl + ")");
     $(".jumpo_heading").css("color", "#dc7147");
     var el = $("#jumpo_heading"),
@@ -67,7 +67,7 @@ $(function () {
     $("div#jumpo_heading").children("h1").html("Features");
     $("div#jumpo_heading")
       .find("p:first-of-type")
-      .html("Best sellers - Newest arrivals -Blowout Sale");
+      .html("Highest price - Lowest price - Financial Services");
     $(".jumbotron").css("background-image", "url(" + imageUrl + ")");
     $(".jumpo_heading").css("color", "#d8345f");
     var el = $("#jumpo_heading"),

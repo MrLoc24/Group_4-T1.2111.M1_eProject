@@ -252,8 +252,8 @@ $(document).ready(function () {
     e.preventDefault();
     $("a").not(this).removeClass("active");
     $(this).addClass("active");
-    $("div").not(".new").removeClass("glow");
-    $(".new").addClass("glow");
+    $("div").not(".lowest").removeClass("glow");
+    $(".lowest").addClass("glow");
   });
   $("#featuresSubmenu li:nth-child(2) a").click(function (e) {
     e.preventDefault();
@@ -271,8 +271,8 @@ $(document).ready(function () {
   });
   $("button[data-filter=new]").click(function (e) {
     e.preventDefault();
-    $("div").not(".new").removeClass("glow");
-    $(".new").addClass("glow");
+    $("div").not(".lowest").removeClass("glow");
+    $(".lowest").addClass("glow");
   });
   $("button[data-filter=best]").click(function (e) {
     e.preventDefault();
