@@ -1,0 +1,81 @@
+:root {
+  --yellow: #f9d806;
+  --light-yellow: #ffee80;
+  --black: #130f40;
+  --light-color: #666;
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  --border: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 3rem;
+  background: var(--light-yellow);
+  color: var(--black);
+  cursor: pointer;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.btn:hover {
+  background: var(--yellow);
+}
+.services .heading {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.services {
+  padding: 2rem 9%;
+}
+
+.services .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.services .box-container .box {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  text-align: center;
+}
+
+.services .box-container .box i {
+  height: 6rem;
+  width: 6rem;
+  line-height: 6rem;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  background: var(--yellow);
+  color: var(--black);
+}
+
+.services .box-container .box h3 {
+  font-size: 2.2rem;
+  color: var(--black);
+}
+
+.services .box-container .box p {
+  line-height: 1.8;
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: var(--light-color);
+}
+
+.services .box-container .box:hover {
+  background: var(--black);
+}
+
+.services .box-container .box:hover h3 {
+  color: #fff;
+}
+
+.services .box-container .box:hover p {
+  color: #eee;
+}
