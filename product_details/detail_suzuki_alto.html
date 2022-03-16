@@ -92,15 +92,12 @@
                           data-filter="trigger"
                         >
                           <option value="all">Show All*</option>
-                          <option value="network2">Network</option>
-                          <option value="body2">Body</option>
-                          <option value="display2">Display</option>
-                          <option value="platform2">Platform</option>
-                          <option value="memory2">Memory</option>
-                          <option value="main_camera2">Main Camera</option>
-                          <option value="features2">Features</option>
-                          <option value="battery2">Battery</option>
-                          <option value="misc2">Misc</option></select
+                          <option value="SIZE_WEIGHT2">SIZE/WEIGHT</option>
+                          <option value="ENGINE_TRANSFER2">ENGINE / TRANSFER</option>
+                          <option value="CONNECTIVITYANDENTERTAINMENT2">CONNECTIVITY AND ENTERTAINMENT</option>
+                          <option value="FuelConsumption2">Fuel Consumption</option>
+                          <option value="Misc2">Misc</option>
+                          <option value="Price2">Price</option></select
                         ><small class="form-text text-muted"
                           >* Choose criteria to filter table below.</small
                         >
@@ -212,9 +209,9 @@
                       </td>
                     </tr>
                   </thead>
-                  <tbody id="network2" data-filter="target">
+                  <tbody id="SIZE_WEIGHT2" data-filter="target">
                     <tr class="bg-secondary">
-                      <th class="text-uppercase">Network</th>
+                      <th class="text-uppercase">SIZE_WEIGHT</th>
                       <td>
                         <span class="text-dark font-weight-semibold"
                           >Suzuki Alto</span
@@ -252,19 +249,49 @@
                       </td>
                     </tr>
                     <tr>
-                      <th>Technology</th>
-                      <td>GSM / CDMA / HSPA / EVDO / LTE</td>
-                      <td>GSM / CDMA / HSPA / EVDO / LTE</td>
-                      <td>GSM / CDMA / HSPA / EVDO / LTE</td>
-                      <td>GSM / CDMA / HSPA / EVDO / LTE</td>
-                      <td>GSM / CDMA / HSPA / EVDO / LTE</td>
-                      <td>GSM / CDMA / HSPA / EVDO / LTE / 5G</td>
-                      <td>GSM / HSPA / LTE / 5G</td>
+                      <th>Seat</th>
+                      <td>5</td>
+                      <td>5</td>
+                      <td>5</td>
+                      <td>5</td>
+                      <td>5</td>
+                      <td>5</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <th>Size (m) ( W x H x L)</th>
+                      <td>1.600 x 1.470 x 3.500</td>
+                      <td>1.735 x 1.495 x 3.845</td>
+                      <td>1.745 x 1.470 x 3.945</td>
+                      <td>1.730 x 1.475 x 4.490</td>
+                      <td>1.785 x 1.585 x 4.300 </td>
+                      <td>1.862 x 1.450 x 4.901</td>
+                      <td>2.028 x 1.873 x 5.363</td>
+                    </tr>
+                    <tr>
+                      <th>Towing Capactity</th>
+                      <td>N/A</td>
+                      <td>500kg</td>
+                      <td>680kg</td>
+                      <td>680kg</td>
+                      <td>750kg</td>
+                      <td>680kg</td>
+                      <td>1800kg</td>
+                    </tr>
+                    <tr>
+                      <th>Wheel type</th>
+                      <td>15 in</td>
+                      <td>16 in</td>
+                      <td>16 in</td>
+                      <td>18 in</td>
+                      <td>17 in</td>
+                      <td>18 in</td>
+                      <td>17 in</td>
                     </tr>
                   </tbody>
-                  <tbody id="body2" data-filter="target">
+                  <tbody id="ENGINE_TRANSFER2" data-filter="target">
                     <tr class="bg-secondary">
-                      <th class="text-uppercase">Body</th>
+                      <th class="text-uppercase">ENGINE_TRANSFER</th>
                       <td>
                         <span class="text-dark font-weight-semibold"
                           >Suzuki Alto</span
@@ -302,79 +329,47 @@
                       </td>
                     </tr>
                     <tr>
-                      <th>Dimensions</th>
-                      <td>158 x 77.8 x 8.1 mm (6.22 x 3.06 x 0.32 in)</td>
-                      <td>144 x 71.4 x 8.1 mm (5.67 x 2.81 x 0.32 in)</td>
-                      <td>150.9 x 75.7 x 8.3 mm (5.94 x 2.98 x 0.33 in)</td>
-                      <td>138.4 x 67.3 x 7.3 mm (5.45 x 2.65 x 0.29 in)</td>
-                      <td>150.9 x 75.7 x 8.3 mm (5.94 x 2.98 x 0.33 in)</td>
-                      <td>164.8 x 77.2 x 8.1 mm (6.49 x 3.04 x 0.32 in)</td>
-                      <td>171.9 x 78.6 x 9 mm (6.77 x 3.09 x 0.35 in)</td>
+                      <th>Transmissions</th>
+                      <td>5-speed manual</td>
+                      <td>5-speed manual 2WD</td>
+                      <td>5-speed manual or 4 speed automatic</td>
+                      <td>4AT</td>
+                      <td>6-speed automatic</td>
+                      <td>CVT Earth Dreams Technology</td>
+                      <td>10-speed automatic</td>
                     </tr>
                     <tr>
-                      <th>Weight</th>
-                      <td>226 g (7.97 oz)</td>
-                      <td>188 g (6.63 oz)</td>
-                      <td>194 g (6.84 oz)</td>
-                      <td>148 g (5.22 oz)</td>
-                      <td>194 g (6.84 oz)</td>
-                      <td>208 g (7.34 oz)</td>
-                      <td>220 g (7.76 oz)</td>
+                      <th>Engine</th>
+                      <td>F8D Petrol Engine</td>
+                      <td>1.2L, 4 Cylinder, 16 Valve</td>
+                      <td>1.4L Petrol</td>
+                      <td>1.4L, 4 Cylinder, 16 Valve</td>
+                      <td>1.4L Petrol Boostjet</td>
+                      <td>1.5L DOHC VTEC TURBO, 4 Cylinder, 16 Valve</td>
+                      <td>3.3L Ti-VCT V6</td>
                     </tr>
                     <tr>
-                      <th>Build</th>
+                      <th>Displacement</th>
                       <td>
-                        Glass front (Gorilla Glass), glass back (Gorilla Glass),
-                        stainless steel frame
+                        796cc
                       </td>
                       <td>
-                        Glass front (Gorilla Glass), glass back (Gorilla Glass),
-                        stainless steel frame
+                        1242cc, 12.5:1 ratio
                       </td>
                       <td>
-                        Glass front (Gorilla Glass), glass back (Gorilla Glass),
-                        aluminum frame (7000 series)
+                        1373cc, 11:1 ratio
                       </td>
-                      <td>Glass front, glass back, aluminum frame</td>
+                      <td>1373cc. 10:1 ratio</td>
                       <td>
-                        Glass front (Gorilla Glass), glass back (Gorilla Glass),
-                        aluminum frame (7000 series)
+                        1373cc, 9.9:1 ratio
                       </td>
-                      <td>
-                        Glass front (Gorilla Glass Victus), glass back (Gorilla
-                        Glass Victus), stainless steel frame
-                      </td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <th>SIM</th>
-                      <td>
-                        Single SIM (Nano-SIM and/or eSIM) or Dual SIM (Nano-SIM,
-                        dual stand-by) - for China
-                      </td>
-                      <td>Nano-SIM and/or eSIM</td>
-                      <td>
-                        Single SIM (Nano-SIM and/or eSIM) or Dual SIM (Nano-SIM,
-                        dual stand-by) - for China
-                      </td>
-                      <td>Nano-SIM and/or eSIM</td>
-                      <td>
-                        Single SIM (Nano-SIM and/or eSIM) or Dual SIM (Nano-SIM,
-                        dual stand-by) - for China
-                      </td>
-                      <td>
-                        Single SIM (Nano-SIM and/or eSIM) or Hybrid Dual SIM
-                        (Nano-SIM, dual stand-by)
-                      </td>
-                      <td>
-                        Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual
-                        stand-by)
-                      </td>
+                      <td>1498cc</td>
+                      <td>3289cc, 12:1 ratio</td>
                     </tr>
                   </tbody>
-                  <tbody id="display2" data-filter="target">
+                  <tbody id="CONNECTIVITYANDENTERTAINMENT2" data-filter="target">
                     <tr class="bg-secondary">
-                      <th class="text-uppercase">Display</th>
+                      <th class="text-uppercase">CONNECTIVITY AND ENTERTAINMENT</th>
                       <td>
                         <span class="text-dark font-weight-semibold"
                           >Suzuki Alto</span
@@ -412,81 +407,27 @@
                       </td>
                     </tr>
                     <tr>
-                      <th>Type</th>
+                      <th>Audio Connectivity</th>
                       <td>
-                        Super Retina XDR OLED capacitive touchscreen, 16M colors
+                        x 4 speakers, DAB digital radio and CD player, USB and AUX connectors (console box)
                       </td>
                       <td>
-                        Super Retina XDR OLED capacitive touchscreen, 16M colors
+                        x 4 speakers, DAB digital radio and CD player, USB and AUX connectors (console box)
                       </td>
                       <td>
-                        Liquid Retina IPS LCD capacitive touchscreen, 16M colors
+                        x 4 speakers, DAB digital radio and CD player, USB and AUX connectors (console box)
                       </td>
-                      <td>Retina IPS LCD capacitive touchscreen, 16M colors</td>
+                      <td>188(140kw)/5.500</td>
                       <td>
-                        Liquid Retina IPS LCD capacitive touchscreen, 16M colors
+                        x 4 speakers, DAB digital radio and CD player, USB and AUX connectors (console box)
                       </td>
-                      <td>
-                        Dynamic AMOLED 2X capacitive touchscreen, 16M colors
-                      </td>
-                      <td>IPS LCD capacitive touchscreen, 16M colors</td>
-                    </tr>
-                    <tr>
-                      <th>Size</th>
-                      <td>
-                        6.5 inches, 102.9 cm2 (~83.7% screen-to-body ratio)
-                      </td>
-                      <td>
-                        5.8 inches, 84.4 cm2 (~82.1% screen-to-body ratio)
-                      </td>
-                      <td>
-                        6.1 inches, 90.3 cm2 (~79.0% screen-to-body ratio)
-                      </td>
-                      <td>
-                        4.7 inches, 60.9 cm2 (~65.4% screen-to-body ratio)
-                      </td>
-                      <td>
-                        6.1 inches, 90.3 cm2 (~79.0% screen-to-body ratio)
-                      </td>
-                      <td>
-                        6.9 inches, 116.7 cm2 (~91.7% screen-to-body ratio)
-                      </td>
-                      <td>
-                        6.81 inches, 112.0 cm2 (~82.9% screen-to-body ratio)
-                      </td>
-                    </tr>
-                    <tr>
-                      <th>Resolution</th>
-                      <td>
-                        1242 x 2688 pixels, 19.5:9 ratio (~458 ppi density)
-                      </td>
-                      <td>
-                        1125 x 2436 pixels, 19.5:9 ratio (~458 ppi density)
-                      </td>
-                      <td>
-                        828 x 1792 pixels, 19.5:9 ratio (~326 ppi density)
-                      </td>
-                      <td>750 x 1334 pixels, 16:9 ratio (~326 ppi density)</td>
-                      <td>
-                        828 x 1792 pixels, 19.5:9 ratio (~326 ppi density)
-                      </td>
-                      <td>1440 x 3088 pixels (~496 ppi density)</td>
-                      <td>1080 x 2400 pixels, 20:9 ratio (~386 ppi density)</td>
-                    </tr>
-                    <tr>
-                      <th>Protection</th>
-                      <td>Scratch-resistant glass, oleophobic coating</td>
-                      <td>Scratch-resistant glass, oleophobic coating</td>
-                      <td>Scratch-resistant glass, oleophobic coating</td>
-                      <td>Ion-strengthened glass, oleophobic coating</td>
-                      <td>Scratch-resistant glass, oleophobic coating</td>
-                      <td>Corning Gorilla Glass Victus</td>
-                      <td></td>
+                      <td>188(140kw)/5.500</td>
+                      <td>8 inch LCD touch screen, 4.2-Inch Instrument Cluster Screen</td>
                     </tr>
                   </tbody>
-                  <tbody id="platform2" data-filter="target">
+                  <tbody id="FuelConsumption" data-filter="target">
                     <tr class="bg-secondary">
-                      <th class="text-uppercase">Platform</th>
+                      <th class="text-uppercase">Fuel Consumption</th>
                       <td>
                         <span class="text-dark font-weight-semibold"
                           >Suzuki Alto</span
@@ -524,396 +465,17 @@
                       </td>
                     </tr>
                     <tr>
-                      <th>OS</th>
-                      <td>iOS 13, upgradable to iOS 13.6.1</td>
-                      <td>iOS 13, upgradable to iOS 13.6.1</td>
-                      <td>iOS 13, upgradable to iOS 13.6.1</td>
-                      <td>iOS 13</td>
-                      <td>iOS 12, upgradable to iOS 13.6.1</td>
-                      <td>Android 10, One UI 2.5</td>
-                      <td>Android 10, Android One</td>
-                    </tr>
-                    <tr>
-                      <th>Chipset</th>
-                      <td>Apple A13 Bionic (7 nm+)</td>
-                      <td>Apple A13 Bionic (7 nm+)</td>
-                      <td>Apple A13 Bionic (7 nm+)</td>
-                      <td>Apple A13 Bionic (7 nm+)</td>
-                      <td>Apple A12 Bionic (7 nm)</td>
-                      <td>
-                        Exynos 990 (7 nm+) - Global <br />
-                        Qualcomm SM8250 Snapdragon 865+ (7 nm+) - USA
-                      </td>
-                      <td>Qualcomm SDM765 Snapdragon 765G (7 nm)</td>
-                    </tr>
-                    <tr>
-                      <th>CPU</th>
-                      <td>
-                        Hexa-core (2x2.65 GHz Lightning + 4x1.8 GHz Thunder)
-                      </td>
-                      <td>
-                        Hexa-core (2x2.65 GHz Lightning + 4x1.8 GHz Thunder)
-                      </td>
-                      <td>
-                        Hexa-core (2x2.65 GHz Lightning + 4x1.8 GHz Thunder)
-                      </td>
-                      <td>
-                        Hexa-core (2x2.65 GHz Lightning + 4x1.8 GHz Thunder)
-                      </td>
-                      <td>Hexa-core (2x2.5 GHz Vortex + 4x1.6 GHz Tempest)</td>
-                      <td>
-                        Octa-core (2x2.73 GHz Mongoose M5 & 2x2.50 GHz
-                        Cortex-A76 & 4x2.0 GHz Cortex-A55) - Global
-                      </td>
-                      <td>
-                        Octa-core (1x2.4 GHz Kryo 475 Prime & 1x2.2 GHz Kryo 475
-                        Gold & 6x1.8 GHz Kryo 475 Silver)
-                      </td>
-                    </tr>
-                    <tr>
-                      <th>GPU</th>
-                      <td>Apple GPU (4-core graphics)</td>
-                      <td>Apple GPU (4-core graphics)</td>
-                      <td>Apple GPU (4-core graphics)</td>
-                      <td>Apple GPU (4-core graphics)</td>
-                      <td>Apple GPU (4-core graphics)</td>
-                      <td>
-                        Mali-G77 MP11 - Global <br />
-                        Adreno 650 - USA
-                      </td>
-                      <td>Adreno 620</td>
+                      <th>Fuel Consumption</th>
+                      <td>37L tank</td>
+                      <td>37L tank/ 4.8L/100Km</td>
+                      <td>37L tank/ 5.1L/100Km</td>
+                      <td>43L tank</td>
+                      <td>47L tank/ 5.9L/100Km</td>
+                      <td>14 gal tank, 34 mile/gal </td>
+                      <td>87L Tank, 12L/100Km</td>
                     </tr>
                   </tbody>
-                  <tbody id="memory2" data-filter="target">
-                    <tr class="bg-secondary">
-                      <th class="text-uppercase">Memory</th>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Alto</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Swift</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Baleno</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Ciaz</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki S-Cross</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Honda Accord</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Ford Raptor</span
-                        >
-                      </td>
-                    </tr>
-                    <tr>
-                      <th>Card slot</th>
-                      <td>No</td>
-                      <td>No</td>
-                      <td>No</td>
-                      <td>No</td>
-                      <td>No</td>
-                      <td>microSDXC (uses shared SIM slot)</td>
-                      <td>microSDXC (dedicated slot)</td>
-                    </tr>
-                    <tr>
-                      <th>Internal</th>
-                      <td>
-                        64GB 4GB RAM, 256GB 4GB RAM,<br />
-                        512GB 4GB RAM <br />
-                        NVMe
-                      </td>
-                      <td>
-                        64GB 4GB RAM, 256GB 4GB RAM,<br />
-                        512GB 4GB RAM <br />
-                        NVMe
-                      </td>
-                      <td>
-                        64GB 4GB RAM, 128GB 4GB RAM,<br />
-                        256GB 4GB RAM <br />
-                        NVMe
-                      </td>
-                      <td>
-                        64GB 4GB RAM, 128GB 4GB RAM,<br />
-                        256GB 4GB RAM <br />
-                        NVMe
-                      </td>
-                      <td>
-                        64GB 4GB RAM, 128GB 4GB RAM,<br />
-                        256GB 4GB RAM <br />
-                        NVMe
-                      </td>
-                      <td>
-                        128GB 12GB RAM, 256GB 12GB RAM,<br />
-                        512GB 12GB RAM <br />
-                        UFS 3.0
-                      </td>
-                      <td>64GB 6GB RAM, 128GB 8GB RAM</td>
-                    </tr>
-                  </tbody>
-                  <tbody id="main_camera2" data-filter="target">
-                    <tr class="bg-secondary">
-                      <th class="text-uppercase">Main Camera</th>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Alto</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Swift</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Baleno</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Ciaz</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki S-Cross</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Honda Accord</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Ford Raptor</span
-                        >
-                      </td>
-                    </tr>
-                    <tr>
-                      <th>Modules</th>
-                      <td>
-                        12 MP, f/1.8, 26mm (wide), 1/2.55", 1.4µm, dual pixel
-                        PDAF, OIS
-                      </td>
-                      <td>
-                        12 MP, f/1.8, 26mm (wide), 1/2.55", 1.4µm, dual pixel
-                        PDAF, OIS
-                      </td>
-                      <td>
-                        12 MP, f/1.8, 26mm (wide), 1/2.55", 1.4µm, dual pixel
-                        PDAF, OIS
-                      </td>
-                      <td>12 MP, f/1.8 (wide), PDAF, OIS</td>
-                      <td>
-                        12 MP, f/1.8, 26mm (wide), 1/2.55", 1.4µm, PDAF, OIS
-                      </td>
-                      <td>
-                        108 MP, f/1.8, 26mm (wide), 1/1.33", 0.8µm, PDAF, Laser
-                        AF, OIS
-                      </td>
-                      <td>64 MP, f/1.9, (wide), PDAF</td>
-                    </tr>
-                    <tr>
-                      <th>Features</th>
-                      <td>Quad-LED dual-tone flash,HDR</td>
-                      <td>Quad-LED dual-tone flash,HDR</td>
-                      <td>Quad-LED dual-tone flash,HDR</td>
-                      <td>Quad-LED dual-tone flash,HDR</td>
-                      <td>Quad-LED dual-tone flash,HDR</td>
-                      <td>LED flash, auto-HDR, panorama</td>
-                      <td>Zeiss optics, Dual-LED flash, panorama, HDR</td>
-                    </tr>
-                    <tr>
-                      <th>Videos</th>
-                      <td>4K@24/30/60fps</td>
-                      <td>4K@24/30/60fps</td>
-                      <td>4K@24/30/60fps</td>
-                      <td>4K@24/30/60fps</td>
-                      <td>4K@24/30/60fps</td>
-                      <td>8K@24fps, 4K@30/60fps</td>
-                      <td>4K@30fps, 1080p@30fps, gyro-EIS</td>
-                    </tr>
-                  </tbody>
-                  <tbody id="features2" data-filter="target">
-                    <tr class="bg-secondary">
-                      <th class="text-uppercase">Features</th>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Alto</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Swift</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Baleno</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Ciaz</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki S-Cross</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Honda Accord</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Ford Raptor</span
-                        >
-                      </td>
-                    </tr>
-                    <tr>
-                      <th>Sensors</th>
-                      <td>
-                        Face ID, accelerometer, gyro, proximity, compass,
-                        barometer
-                      </td>
-                      <td>
-                        Face ID, accelerometer, gyro, proximity, compass,
-                        barometer
-                      </td>
-                      <td>
-                        Face ID, accelerometer, gyro, proximity, compass,
-                        barometer
-                      </td>
-                      <td>
-                        Fingerprint (front-mounted), accelerometer, proximity,
-                        gyro, compass, barometer
-                      </td>
-                      <td>
-                        Face ID, accelerometer, gyro, proximity, compass,
-                        barometer
-                      </td>
-                      <td>
-                        Fingerprint (under display, ultrasonic), accelerometer,
-                        gyro, proximity, compass, barometer
-                      </td>
-                      <td>
-                        Fingerprint (side-mounted), accelerometer, gyro,
-                        proximity, compass
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tbody id="battery2" data-filter="target">
-                    <tr class="bg-secondary">
-                      <th class="text-uppercase">Battery</th>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Alto</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Swift</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Baleno</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki Ciaz</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Suzuki S-Cross</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Honda Accord</span
-                        >
-                      </td>
-                      <td>
-                        <span class="text-dark font-weight-semibold"
-                          >Ford Raptor</span
-                        >
-                      </td>
-                    </tr>
-                    <tr>
-                      <th>Type</th>
-                      <td>Li-Ion 3969 mAh, non-removable (15.04 Wh)</td>
-                      <td>Li-Ion 3046 mAh, non-removable (11.67 Wh)</td>
-                      <td>Li-Ion 3110 mAh, non-removable (11.91 Wh)</td>
-                      <td>Li-Ion 1821 mAh, non-removable (6.96 Wh)</td>
-                      <td>Li-Ion 2942 mAh, non-removable (11.16 Wh)</td>
-                      <td>Li-Ion 4500 mAh, non-removable</td>
-                      <td>Li-Po 4500 mAh, non-removable</td>
-                    </tr>
-                    <tr>
-                      <th>Charging</th>
-                      <td>Fast charging 18W, 50% in 30 min (advertised)</td>
-                      <td>Fast charging 18W, 50% in 30 min (advertised)</td>
-                      <td>Fast charging 18W, 50% in 30 min (advertised)</td>
-                      <td>Fast charging 18W, 50% in 30 min (advertised)</td>
-                      <td>Fast charging 15W, 50% in 30 min (advertised)</td>
-                      <td>Fast charging 25W</td>
-                      <td>Fast charging 18W</td>
-                    </tr>
-                    <tr>
-                      <th>Stand-by</th>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <th>Talk Time</th>
-                      <td>Up to 20 h (multimedia)</td>
-                      <td>Up to 18 h (multimedia)</td>
-                      <td>Up to 17 h (multimedia)</td>
-                      <td></td>
-                      <td>Up to 16 h (multimedia)</td>
-                      <td></td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <th>Music Play</th>
-                      <td>Up to 80 h</td>
-                      <td>Up to 65 h</td>
-                      <td>Up to 65 h</td>
-                      <td></td>
-                      <td>Up to 65 h</td>
-                      <td></td>
-                      <td></td>
-                    </tr>
-                  </tbody>
-                  <tbody id="misc2" data-filter="target">
+                  <tbody id="Misc2" data-filter="target">
                     <tr class="bg-secondary">
                       <th class="text-uppercase">Misc</th>
                       <td>
@@ -953,57 +515,73 @@
                       </td>
                     </tr>
                     <tr>
-                      <th>Colors</th>
-                      <td>Orange, Black</td>
+                      <th>Misc</th>
+                      <td>N/A</td>
+                      <td>Reversing Camera</td>
+                      <td>Keyless Start, Pollen Filter</td>
+                      <td>N/A</td>
+                      <td>N/A</td>
+                      <td>Remote Engine Start, Hill Start Assist, ABS</td>
+                      <td>Ford Co-Pilot 360, Second Round Sliding Seat, 4 wheels ABS, Fordpass Wifi Hotspot</td>
+                    </tr>
+                  </tbody>
+                  <tbody id="Price2" data-filter="target">
+                    <tr class="bg-secondary">
+                      <th class="text-uppercase">Price</th>
                       <td>
-                        Matte Space Gray, Matte Silver, Matte Gold, Matte
-                        Midnight Green
+                        <span class="text-dark font-weight-semibold"
+                          >Suzuki Alto</span
+                        >
                       </td>
-                      <td>Black, Green, Yellow, Purple, Red, White</td>
-                      <td>Black, White, Red</td>
-                      <td>Black, Red, Yellow, Blue, Coral, White</td>
-                      <td>Mystic Bronze, Mystic Black, Mystic White</td>
-                      <td>Polar Night</td>
-                    </tr>
-                    <tr>
-                      <th>SAR</th>
-                      <td>1.16 W/kg (head) 1.17 W/kg (body)</td>
-                      <td>1.18 W/kg (head) 1.16 W/kg (body)</td>
-                      <td>1.09 W/kg (head) 1.18 W/kg (body)</td>
-                      <td>1.17 W/kg (head) 1.16 W/kg (body)</td>
-                      <td>1.13 W/kg (head) 1.16 W/kg (body)</td>
-                      <td>0.71 W/kg (head) 1.18 W/kg (body)</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <th>SAR EU</th>
-                      <td>0.95 W/kg (head) 0.99 W/kg (body)</td>
-                      <td>0.99 W/kg (head) 0.99 W/kg (body)</td>
-                      <td>0.95 W/kg (head) 0.99 W/kg (body)</td>
-                      <td>0.98 W/kg (head) 0.99 W/kg (body)</td>
-                      <td>0.99 W/kg (head) 0.99 W/kg (body)</td>
-                      <td>0.34 W/kg (head) 1.47 W/kg (body)</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <th>Models</th>
-                      <td>2022</td>
-                      <td>2022</td>
-                      <td>2022</td>
-                      <td>2022</td>
-                      <td>2022</td>
-                      <td>2022</td>
-                      <td>2022</td>
+                      <td>
+                        <span class="text-dark font-weight-semibold"
+                          >Suzuki Swift</span
+                        >
+                      </td>
+                      <td>
+                        <span class="text-dark font-weight-semibold"
+                          >Suzuki Baleno</span
+                        >
+                      </td>
+                      <td>
+                        <span class="text-dark font-weight-semibold"
+                          >Suzuki Ciaz</span
+                        >
+                      </td>
+                      <td>
+                        <span class="text-dark font-weight-semibold"
+                          >Suzuki S-Cross</span
+                        >
+                      </td>
+                      <td>
+                        <span class="text-dark font-weight-semibold"
+                          >Honda Accord</span
+                        >
+                      </td>
+                      <td>
+                        <span class="text-dark font-weight-semibold"
+                          >Ford Raptor</span
+                        >
+                      </td>
                     </tr>
                     <tr>
                       <th>Price</th>
-                      <td>$25990</td>
-                      <td>$ 929.00 / € 819.99 / £ 714.99 / ₹ 99,599</td>
-                      <td>$ 672.36 / € 638.29 / £ 591.95 / ₹ 63,999</td>
-                      <td>$ 360.99 / € 434.84 / £ 419.00</td>
-                      <td>$ 445.00 / € 486.51 / £ 439.50</td>
-                      <td>$ 1,299.99 / € 1,091.38 / £ 1,129.99</td>
-                      <td>About 600 EUR</td>
+                      <td>
+                      $ 25990
+                      </td>
+                      <td>
+                      $ 27990
+                      </td>
+                      <td>
+                      $ 28800
+                      </td>
+                      <td>
+                      $ 31500</td>
+                      <td>
+                      $ 32000
+                      </td>
+                      <td>$ 26120</td>
+                      <td>$ 65000</td>
                     </tr>
                   </tbody>
                 </table>
