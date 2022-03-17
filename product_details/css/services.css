@@ -3,66 +3,68 @@
   --light-yellow: #ffee80;
   --black: #130f40;
   --light-color: #666;
-  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  --box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   --border: 0.1rem solid rgba(0, 0, 0, 0.1);
 }
-div {
-  display: block;
-}
+
 .services .heading {
   text-align: center;
   text-transform: uppercase;
+  font-size: 22px;
   padding-bottom: 20px;
 }
 .services {
   padding: 2rem 9%;
+  text-transform: uppercase;
+  font-size: small;
 }
 
 .services .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
+  font-size: 65%;
 }
 
 .services .box-container .box {
   padding: 2rem;
   border-radius: 0.5rem;
-  box-shadow: var(--box-shadow);
+
   border: var(--border);
   text-align: center;
 }
 
 .services .box-container .box i {
-  height: 6rem;
-  width: 6rem;
-  line-height: 6rem;
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
   border-radius: 50%;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   background: var(--yellow);
   color: var(--black);
 }
 
 .services .box-container .box h3 {
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   color: var(--black);
 }
 
 .services .box-container .box p {
   line-height: 1.8;
   padding: 1rem 0;
-  font-size: 1.4rem;
-  color: var(--light-color);
+  font-size: 12px;
+  color: black;
 }
 
 .services .box-container .box:hover {
-  background: var(--black);
+  box-shadow: var(--box-shadow);
 }
 
 .services .box-container .box:hover h3 {
-  color: #fff;
+  color: gray;
 }
 
 .services .box-container .box:hover p {
-  color: #eee;
+  color: gray;
 }
