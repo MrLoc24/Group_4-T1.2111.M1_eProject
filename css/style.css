@@ -204,6 +204,7 @@ a:focus {
   }
   .desc {
     font-size: 12px;
+    margin: 8%;
   }
 }
 
@@ -2300,6 +2301,13 @@ div#addDoc {
   margin: auto;
 }
 
+#heading_auto {
+  color: gray;
+}
+
+#title_auto {
+  color: gray;
+}
 /* ---------------------------------------------------
     CONTACT US - Counter 
 ----------------------------------------------------- */
