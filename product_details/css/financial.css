@@ -1,0 +1,16 @@
+table {
+  width: 95%;
+}
+.intro {
+  text-align: center;
+  margin: 25px;
+}
+.section-heading {
+  text-align: center;
+  margin-top: 75px;
+}
+
+.img-bank {
+  width: 150px;
+  height: 100;
+}
