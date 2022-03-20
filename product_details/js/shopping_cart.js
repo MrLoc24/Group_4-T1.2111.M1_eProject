@@ -165,7 +165,7 @@ function displayCart() {
     output +=
       "<tr>" +
       "<td>" +
-      "<img style='width: 1.75rem; height: 2.5rem; display:block; margin: auto' src=../img" +
+      "<img style='width: 7rem; height: 3rem; display:block; margin: auto' src=../img" +
       cartArray[i].img +
       ".jpg alt='thumbnail'></td>" +
       "<td><b>" +

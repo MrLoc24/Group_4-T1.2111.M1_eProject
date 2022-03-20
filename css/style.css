@@ -2474,6 +2474,7 @@ footer .back-to-top {
 
 .input-group > .form-control {
   min-width: 50px;
+  max-width: 100px;
 }
 
 div.input-group {

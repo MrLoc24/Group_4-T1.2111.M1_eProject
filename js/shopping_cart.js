@@ -163,9 +163,29 @@ function displayCart() {
   var output = "Your cart is empty";
   for (var i in cartArray) {
     output +=
+      // "<tr>" +
+      // "<td>" +
+      // "Image" +
+      // "</td>" +
+      // "<td>" +
+      // "Name" +
+      // "</td>" +
+      // "<td>" +
+      // "Price" +
+      // "</td>" +
+      // "<td>" +
+      // "Quantity" +
+      // "</td> " +
+      // "<td>" +
+      // "Remove" +
+      // "</td>" +
+      // "<td>" +
+      // "Total" +
+      // "</td>" +
+      // "</tr>" +
       "<tr>" +
       "<td>" +
-      "<img style='width: 1.75rem; height: 2.5rem; display:block; margin: auto' src=img" +
+      "<img style='width: 7rem; height: 3rem; display:block; margin: auto' src=img" +
       cartArray[i].img +
       ".jpg alt='thumbnail'></td>" +
       "<td><b>" +
@@ -236,7 +256,7 @@ $(".show-cart").on("change", ".item-count", function (event) {
 
 displayCart();
 
-//Add to cart animation source code from code pen
+//Add to cart animation source code from code pen io
 $(".add-to-cart").on("click", function () {
   var cart = $(".shopping-cart");
   var imgtodrag = $(this).parents(".card").find("img").eq(0);
