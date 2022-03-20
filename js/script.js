@@ -359,17 +359,17 @@ $(document).ready(function () {
     Call to Click button
     ----------------------------------------------------- */
   // toggleCalltoClick();
-  $(window).scroll(function (event) {
-    // toggleCalltoClick();
-    if (
-      $(this).scrollTop() > $("#honda").offset().top &&
-      $(this).scrollTop() < $("#footer").offset().top
-    ) {
-      $(".CTA_chat , .CTA_chat > a").fadeIn("slow");
-    } else {
-      $(".CTA_chat , .CTA_chat > a").fadeOut("slow");
-    }
-  });
+  // $(window).scroll(function (event) {
+  //   // toggleCalltoClick();
+  //   if (
+  //     $(this).scrollTop() > $("#honda").offset().top &&
+  //     $(this).scrollTop() < $("#footer").offset().top
+  //   ) {
+  //     $(".CTA_chat , .CTA_chat > a").fadeIn("slow");
+  //   } else {
+  //     $(".CTA_chat , .CTA_chat > a").fadeOut("slow");
+  //   }
+  // });
 
   // Dismiss CalltoClick();
   $("#content div.CTA_chat a:nth-child(1)").click(function (e) {
