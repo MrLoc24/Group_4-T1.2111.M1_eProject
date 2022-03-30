@@ -782,19 +782,32 @@ footer .back-to-top {
   padding-bottom: 25px;
   height: fit-content;
 }
+.col-md-6 {
+  text-align: center;
+}
+.col-md-6 .box {
+  margin: auto;
+  margin-bottom: 5px;
+}
 
 .box {
   background-color: #95e1d3;
   margin-bottom: 20px;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
 }
 
 .overlay > img {
-  width: 100%;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
 }
 
 .box .overlay {
   display: block;
-  height: 100%;
+  height: 350px;
+  width: 350px;
   position: relative;
   top: 0;
   left: 0;
@@ -804,6 +817,7 @@ footer .back-to-top {
 .overlay:hover {
   top: -7px;
   left: -7px;
+  border-radius: 50%;
 }
 
 .box .overlay .pic-explanation {
@@ -839,12 +853,13 @@ footer .back-to-top {
 
 .box .overlay::before {
   content: "";
-  width: 100%;
-  height: 100%;
+  width: 350px;
+  height: 350px;
   position: absolute;
   opacity: 0;
   background: linear-gradient(#f38181, #fce38a);
   transition: 0.3s ease-in-out;
+  border-radius: 50%;
 }
 
 .box .overlay:hover::before {
