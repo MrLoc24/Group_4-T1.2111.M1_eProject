@@ -63,9 +63,9 @@ $(document).ready(function () {
     margin: 20,
     loop: true,
     autoplay: true,
-    autoplayTimeout: 10000,
+    autoplayTimeout: 12000,
     autoplayHoverPause: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 10000,
     responsive: {
       0: {
         items: 1,
